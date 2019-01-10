@@ -10,3 +10,16 @@
 - 更高的开发效率 `Object.assign` `Array.from` ...
 - 更少的出错可能 `let&const` `Symbol` ...
 - 更人性化的语法 **箭头函数** `async/await` ...
+
+# 开发工具 #
+
+- 工程化工具`webpack`
+- 语法编译工具`babel`
+- 脚手架工具
+
+## webpack配置 ##
+
+- `webpack`用于支持**模块化开发**
+- 配置`babel-loader`将`es6`转换为`es5`
+- 压缩、合并等前端优化
+

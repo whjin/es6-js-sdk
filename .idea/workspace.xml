@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7eae07f1-b503-4b79-8388-7d6e9464b1d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/es6-js-sdk.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,12 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -54,10 +59,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="60" />
-    <option name="y" value="5" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="250" />
+    <option name="y" value="45" />
+    <option name="width" value="1420" />
+    <option name="height" value="910" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -80,7 +85,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../github/full-stack-development" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -106,12 +111,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547078312771</updated>
-      <workItem from="1547078314006" duration="1220000" />
+      <workItem from="1547078314006" duration="2223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1220000" />
+    <option name="totallyTimeSpent" value="2223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -144,18 +149,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
