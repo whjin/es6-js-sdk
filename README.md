@@ -8,7 +8,7 @@
 
 # ES6+ #
 
-ES6语法
+**[ES6语法](https://github.com/whjin/es6-js-sdk/blob/master/doc/ES6%E8%AF%AD%E6%B3%95.md)**
 
 - 更高的开发效率 `Object.assign` `Array.from` ...
 - 更少的出错可能 `let&const` `Symbol` ...
