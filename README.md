@@ -23,3 +23,25 @@
 - 配置`babel-loader`将`es6`转换为`es5`
 - 压缩、合并等前端优化
 
+## babel配置 ##
+
+- 通过`.babelrc`配置文件进行配置
+- 与`webpack`或`gulp`等打包工具配合
+- 在浏览器引入`babel-polyfill`转换新的`API`
+
+## html-bundler ##
+
+**脚手架工具（https://github.com/be-fe/html-bundler）**
+
+- 解决`babel`和`webpack`配置比较繁琐的问题
+- 性能与日志优化，`html/css`图片等的处理
+- `Dev Server`和环境配置
+
+**安装`html-bundler`**
+
+    npm install html-bundler -g
+    
+    hb create yourproject -w
+    
+    cd yourproject && npm install && hb dev
+
