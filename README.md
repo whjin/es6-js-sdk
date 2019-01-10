@@ -1,5 +1,6 @@
 # es6-js-sdk
-电商网站的账号体系
+
+电商网站的账号体系：[需求分析与技术实现](https://github.com/whjin/es6-js-sdk/blob/master/doc/%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90%E4%B8%8E%E6%8A%80%E6%9C%AF%E5%AE%9E%E7%8E%B0.md)
 
 - 原生`ES6`开发，除兼容库外不引用任何第三方库
 - 包括工程化、架构设计、数据`Mock`等常用前端开发模式与流程
@@ -45,6 +46,3 @@
     
     cd yourproject && npm install && hb dev
 
-# 需求分析 #
-
-[需求分析与技术实现](https://github.com/whjin/es6-js-sdk/blob/master/doc/%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90%E4%B8%8E%E6%8A%80%E6%9C%AF%E5%AE%9E%E7%8E%B0.md)
