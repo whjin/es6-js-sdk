@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-capable" content="no">
     <meta name="format-detection" content="telephone=no">
     
-<link rel="stylesheet" type="text/css" href="..\css\index.css?v=1547089326442"></head>
+<link rel="stylesheet" type="text/css" href="..\css\index.css?v=1547109556554"></head>
 <body>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,6 +22,7 @@
 </body>
 </html>
 <h1>Hello World!</h1>
+<div id="container"></div>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,6 +34,12 @@
 </body>
 </html>
 
+<!--<script type="text/javascript" src="../js/index.js"></script>-->
 
-<script type="text/javascript" src="../lib/vendors.js"></script><script type="text/javascript" src="..\js\index.js?v=1547089326442"></script></body>
+
+<script type="text/javascript" src="../lib/vendors.js"></script><script type="text/javascript" src="..\js\index.js?v=1547109556554"></script><script>
+    login({
+        container: document.getElementById("container")
+    })
+</script></body>
 </html>
