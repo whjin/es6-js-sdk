@@ -1,7 +1,7 @@
 /* eslint-disable */
 var webpack = require('webpack');
 var HappyPack = require('happypack');
-var happyThreadPool = HappyPack.ThreadPool({ size: 4 });
+var happyThreadPool = HappyPack.ThreadPool({size: 4});
 
 var commonConf = {
     module: {
@@ -66,7 +66,7 @@ var webpackConf = {
                 cache: true,
                 verbose: false,
                 threadPool: happyThreadPool,
-                loaders: [ 'babel-loader' ]
+                loaders: ['babel-loader']
             }),
         ],
         module: commonConf.module,
@@ -84,7 +84,7 @@ var webpackConf = {
                 cache: true,
                 verbose: false,
                 threadPool: happyThreadPool,
-                loaders: [ 'babel-loader' ]
+                loaders: ['babel-loader']
             }),
         ],
         module: commonConf.module,
@@ -100,7 +100,7 @@ try {
     webpackConf.dev.plugins.unshift(dllref);
     webpackConf.dest.plugins.unshift(dllref);
 }
-catch(e) {
+catch (e) {
     console.log('没有生成webpack DllReferencePlugin插件所需的 manifest.json');
 }
 

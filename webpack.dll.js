@@ -1,25 +1,28 @@
 const webpack = require('webpack');
 const path = require('path');
 
-const vendors = [];
+const vendors = [
+    "es5-shim",
+    "babel-polyfill"
+];
 
 const options = {
-  output: {
-    path: path.join(__dirname, 'src/lib'),
-    filename: 'vendors.js',
-    library: 'vendors',
-  },
-  entry: {
-    vendor: vendors,
-  },
-  plugins: [
-    new webpack.DllPlugin({
-      path: 'manifest.json',
-      name: 'vendors',
-      context: __dirname,
-    }),
-    new webpack.optimize.UglifyJsPlugin()
-  ],
+    output: {
+        path: path.join(__dirname, 'src/lib'),
+        filename: 'vendors.js',
+        library: 'vendors',
+    },
+    entry: {
+        vendor: vendors,
+    },
+    plugins: [
+        new webpack.DllPlugin({
+            path: 'manifest.json',
+            name: 'vendors',
+            context: __dirname,
+        }),
+        new webpack.optimize.UglifyJsPlugin()
+    ],
 }
 
 // webpack(webpackConf).run(function(err, stats) {

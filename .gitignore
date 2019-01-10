@@ -9,6 +9,4 @@ out
 gen
 .idea/
 .npmignore
-dist/
 node_modules/
-package-lock.json
