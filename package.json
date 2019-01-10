@@ -18,6 +18,7 @@
     "happypack": "^4.0.0",
     "html-loader": "^0.4.4",
     "json-loader": "^0.5.4",
+    "mime": "^2.4.0",
     "url-loader": "^0.5.7",
     "webpack": "^3.6.0"
   }
