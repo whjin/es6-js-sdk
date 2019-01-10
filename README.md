@@ -31,7 +31,7 @@
 
 ## html-bundler ##
 
-**脚手架工具（https://github.com/be-fe/html-bundler）**
+**脚手架工具（[html-bundler](https://github.com/be-fe/html-bundler)）**
 
 - 解决`babel`和`webpack`配置比较繁琐的问题
 - 性能与日志优化，`html/css`图片等的处理
